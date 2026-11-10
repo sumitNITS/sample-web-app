@@ -20,12 +20,11 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-  reports:
+reports:
     coverage:
       files:
         - coverage.xml
       file-format: CLOVERXML
-
 artifacts:
   files:
     - appspec.yml
